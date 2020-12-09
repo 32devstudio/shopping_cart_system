@@ -9,7 +9,7 @@ $legume = array(
                   'prix' => 6.64,
                   'urlImg' => './assets/img/laitue.jpg'
           ),
-          'mache' => array(
+          'mâche' => array(
                   'prix' => 5.34,
                   'urlImg' => './assets/img/mache.jpg'
           ),
@@ -21,7 +21,7 @@ $legume = array(
                   'prix' => 7.75,
                   'urlImg' => './assets/img/chou.jpg'
           ),
-          'epinard' => array(
+          'épinard' => array(
                   'prix' => 5.7,
                   'urlImg' => './assets/img/epinard.jpg'
           ),
@@ -31,7 +31,7 @@ $legume = array(
                   'prix' => 7.38,
                   'urlImg' => './assets/img/asperge.jpg'
           ),
-          'bambou' => array(
+          'pousse de bambou' => array(
                   'prix' => 6.4,
                   'urlImg' => './assets/img/bambou.jpg'
           ),
@@ -40,24 +40,24 @@ $legume = array(
                   'urlImg' => './assets/img/chou_rave.jpg'
           ),
       ),
-	'bulbe' => array(
+	'bulbes' => array(
           'ail' => array(
                   'prix' => 7.57,
                   'urlImg' => './assets/img/ail.jpg'
           ),
-          'echalotte' => array(
+          'échalote' => array(
                   'prix' => 6.3,
-                  'urlImg' => './assets/img/echalotte.jpg'
+                  'urlImg' => './assets/img/echalote.jpg'
           ),
-          'onions' => array(
+          'oignon' => array(
                   'prix' => 7.62,
                   'urlImg' => './assets/img/onions.jpg'
           ),
       ),
   'légumes-fleurs' => array(
-          'chouf-fleur' => array(
+          'chou-fleur' => array(
                   'prix' => 5.58,
-                  'urlImg' => './assets/img/chouf_fleur.jpg'
+                  'urlImg' => './assets/img/chou_fleur.jpg'
           ),
           'broccoli' => array(
                   'prix' => 6.08,
@@ -79,7 +79,7 @@ $legume = array(
           ),
           'carotte' => array(
                   'prix' => 7.25,
-                  'urlImg' => './assets/img/carotte.jpg'
+                  'urlImg' => './assets/img/carrotte.jpg'
           ),
           'navet' => array(
                   'prix' => 6.34,
@@ -99,7 +99,7 @@ $legume = array(
                   'prix' => 5.26,
                   'urlImg' => './assets/img/concombre.jpg'
           ),
-          'cornichons' => array(
+          'cornichon' => array(
                   'prix' => 6.93,
                   'urlImg' => './assets/img/cornichons.jpg'
           ),
@@ -121,7 +121,7 @@ $legume = array(
           ),
           'pastèque' => array(
                   'prix' => 6.12,
-                  'urlImg' => './assets/img/pastèque.jpg'
+                  'urlImg' => './assets/img/pasteque.jpg'
           ),
     ),
   'tubercules' => array(
@@ -133,7 +133,7 @@ $legume = array(
                   'prix' => 7.0,
                   'urlImg' => './assets/img/patate_douce.jpg'
           ),
-          'patate' => array(
+          'pomme de terre' => array(
                   'prix' => 7.65,
                   'urlImg' => './assets/img/patate.jpg'
           ),
@@ -142,8 +142,8 @@ $legume = array(
                   'urlImg' => './assets/img/topinambour.jpg'
           ),
       ),
-  'fines herbes' => array(
-          'basilique' => array(
+  'fines-herbes' => array(
+          'basilic' => array(
                   'prix' => 5.59,
                   'urlImg' => './assets/img/basilique.jpg'
           ),

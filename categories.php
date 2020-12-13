@@ -28,7 +28,7 @@
         <h5 class="card-title my-auto"><?php echo $key_prod; ?></h5>
         <span class="d-flex flex-row">
           <h6 class="my-auto mr-3 text-secondary"><?php echo $product["prix"]; ?>€/kg</h6>
-          <a href="?panier_add=<?php echo $key_prod; ?>" class="btn btn-success"><img src="assets/img/cart_add.png" alt="ajouter au panier" width=32px></a>
+          <a href="?category=<?php echo $_GET["category"] ?>&panier_add=<?php echo $key_prod; ?>" class="btn btn-success"><img src="assets/img/cart_add.png" alt="ajouter au panier" width=32px></a>
         </span>
       </div>
     </div>

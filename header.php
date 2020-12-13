@@ -1,5 +1,31 @@
 <?php include 'data.php'; ?>
 
+<?php
+// vérification de l'existance d'un panier
+if (!isset($_COOKIE['panier'])) {
+  $panier = array ();
+}else{
+  $panier = unserialize($_COOKIE['panier']);
+}
+
+// demande de suppression d'un élément du panier
+if (isset($_GET['panier_delete'])) {
+  foreach ($panier as $panier_key => $panier_content) {
+    if ($_GET['panier_delete']==$panier_content) {
+      array_splice($panier, $panier_key, 1);
+      setcookie('panier', serialize($panier), time()+365*24*3600);
+      header('Location: panier.php');
+    }
+  }
+}
+
+// demande d'ajout d'un élément au panier
+if (isset($_GET['panier_add'])  AND !in_array($_GET['panier_add'], $panier)) {
+  $panier[] = $_GET['panier_add'];
+  setcookie('panier', serialize($panier), time()+365*24*3600);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>

@@ -1,2 +1,2 @@
-# shopping_cart_system
-Cart handling with php and cookies
+# Shopping cart system
+Mini-projet de cdin web sur la manipulation des cookies
